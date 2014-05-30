@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: myBMP - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP20.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/myBMP.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\桌面\Digital image processing\BMP放大缩小程序\myBMP_3\myBMPDoc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP20.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/myBMP.pdb" /debug /machine:I386 /out:"Debug/myBMP.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\ColorPalette.obj"
+".\Debug\Data.obj"
+".\Debug\Histogram.obj"
+".\Debug\MainFrm.obj"
+".\Debug\myBMP.obj"
+".\Debug\myBMPDoc.obj"
+".\Debug\myBMPView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\myBMP.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP21.tmp"
+<h3>Output Window</h3>
+Compiling...
+myBMPDoc.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+myBMP.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
